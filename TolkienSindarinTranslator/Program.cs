@@ -35,6 +35,10 @@ class program
             {
                 Console.WriteLine($"English Translation: {englishWord}");
             }
+            else
+            {
+                Console.WriteLine("Word not found in dictionary.");
+            }
         }
     }
 }
