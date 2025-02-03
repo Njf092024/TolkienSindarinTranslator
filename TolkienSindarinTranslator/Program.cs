@@ -23,6 +23,9 @@ class program
         {
             Console.WriteLine("\nEnter a word (English or Sindarin) or type 'exit' to quit:");
             string input = Console.ReadLine()?.ToLower();
+
+            if (input =="exit")
+            break;
         }
     }
 }
