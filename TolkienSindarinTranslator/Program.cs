@@ -26,6 +26,11 @@ class program
 
             if (input =="exit")
             break;
+
+            if (dictionary["english_to_sindarin"].TryGetValue(input, out string sindarinWord))
+            {
+                Console.WriteLine($"Sindarin Translation: {sindarinWord}");
+            }
         }
     }
 }
