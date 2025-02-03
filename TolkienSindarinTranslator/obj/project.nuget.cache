@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2zEvq6iUqxc=",
+  "success": true,
+  "projectFilePath": "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fadin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
