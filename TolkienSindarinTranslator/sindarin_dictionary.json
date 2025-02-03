@@ -1,0 +1,27 @@
+{
+    "english_to_sindarin": 
+    {
+        "hello": "suilad",
+        "friend": "mellon",
+        "star": "gil",
+        "light": "galad",
+        "moon": "îl",
+        "earth": "amar",
+        "fire": "naur",
+        "water": "nen",
+        "wind": "gwaew"
+    },
+    "sindarin_to_english":
+    {
+        "suilad": "hello",
+        "mellon": "friend",
+        "gil": "star",
+        "galad": "light",
+        "îl": "moon",
+        "amar": "earth",
+        "naur": "fire",
+        "nen": "water",
+        "gwaew": "wind"
+
+    }
+}
