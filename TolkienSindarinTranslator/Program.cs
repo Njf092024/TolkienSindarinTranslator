@@ -14,5 +14,11 @@ class program
             Console.WriteLine("Error: Dictionary file not found");
             return;
         }
+
+        string jsonText = File.ReadAllText(jsonFilePath);
+
+        var dictionary = JsonConvert.DeserializeObject<Dictionary<string, string >>>(jsonText);
+        
+    
     }
 }
