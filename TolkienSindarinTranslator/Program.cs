@@ -31,6 +31,10 @@ class program
             {
                 Console.WriteLine($"Sindarin Translation: {sindarinWord}");
             }
+            else if (dictionary["sindarin_to_english"].TryGetValue(input, out string englishWord))
+            {
+                Console.WriteLine($"English Translation: {englishWord}");
+            }
         }
     }
 }
