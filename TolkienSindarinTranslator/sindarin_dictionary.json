@@ -2,10 +2,15 @@
     "english_to_sindarin": 
     {
         "hello": "suilad",
+        "farewell": "navaer",
         "friend": "mellon",
+        "enemy": "gûd",
         "star": "gil",
-        "light": "galad",
         "moon": "îl",
+        "sun": "anor",
+        "heaven": "menel",
+        "light": "galad",
+        "dark": "dûr",
         "earth": "amar",
         "fire": "naur",
         "water": "nen",
@@ -14,10 +19,15 @@
     "sindarin_to_english":
     {
         "suilad": "hello",
+        "navaer": "farewell",
         "mellon": "friend",
+        "gûd": "enemy",
         "gil": "star",
+        "îl": "moon", 
+        "anor": "sun", 
+        "menel": "heaven",
         "galad": "light",
-        "îl": "moon",
+        "dûr": "dark",
         "amar": "earth",
         "naur": "fire",
         "nen": "water",

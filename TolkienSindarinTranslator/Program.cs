@@ -3,11 +3,11 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-class program
+class Program
 {
     static void Main()
     {
-        string JsonFilePath = "sindarin_dictionary.json";
+        string jsonFilePath = "sindarin_dictionary.json";
 
         if (!File.Exists(jsonFilePath))
         {
@@ -17,7 +17,7 @@ class program
 
         string jsonText = File.ReadAllText(jsonFilePath);
 
-        var dictionary = JsonConvert.DeserializeObject<Dictionary<string, string >>>(jsonText);
+        var dictionary = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string >>>(jsonText);
         
         while (true)
         {
