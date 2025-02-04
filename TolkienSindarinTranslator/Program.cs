@@ -17,7 +17,8 @@ class Program
 
         string jsonText = File.ReadAllText(jsonFilePath);
 
-        var dictionary = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string >>>(jsonText);
+        var dictionary = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string >>>(jsonText)
+        ?? new Dictionary<string, Dictionary<string, string>>();
         
         while (true)
         {
