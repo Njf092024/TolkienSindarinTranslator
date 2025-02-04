@@ -17,22 +17,27 @@ class Program
 
         string jsonText = File.ReadAllText(jsonFilePath);
 
-        var dictionary = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string >>>(jsonText)
-        ?? new Dictionary<string, Dictionary<string, string>>();
+        var dictionary = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string >>>(jsonText);
+        
+        if (dictionary == null || !dictionary.ContainsKey("english_to_sindarin") || !dictionary.ContainsKey("sindarin_to_english"))
+        {
+            Console.WriteLine("Error: Invalid or corrupt dictionary format.");
+            return;
+        }
         
         while (true)
         {
             Console.WriteLine("\nEnter a word (English or Sindarin) or type 'exit' to quit:");
-            string input = Console.ReadLine()?.ToLower();
+            string? input = Console.ReadLine()?.ToLower();
 
-            if (input =="exit")
+            if (string.IsNullOrEmpty(input) || input  == "exit")
             break;
 
-            if (dictionary["english_to_sindarin"].TryGetValue(input, out string sindarinWord))
+            if (dictionary["english_to_sindarin"].TryGetValue(input, out string? sindarinWord))
             {
                 Console.WriteLine($"Sindarin Translation: {sindarinWord}");
             }
-            else if (dictionary["sindarin_to_english"].TryGetValue(input, out string englishWord))
+            else if (dictionary["sindarin_to_english"].TryGetValue(input, out string? englishWord))
             {
                 Console.WriteLine($"English Translation: {englishWord}");
             }
