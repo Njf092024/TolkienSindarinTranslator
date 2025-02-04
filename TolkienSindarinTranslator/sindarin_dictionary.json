@@ -14,7 +14,23 @@
         "earth": "amar",
         "fire": "naur",
         "water": "nen",
-        "wind": "gwaew"
+        "wind": "gwaew",
+        "abandon": "awartha",
+        "fear": "delos",
+        "abyss": "dath",
+        "action": "hûr",
+        "keen": "laeg ",
+        "admiration": "elo!",
+        "adult": "dîr",
+        "adviser": "saelor",
+        "concern": "pessa",
+        "trouble": "presta-",
+        "affection": "prestanneth",
+        "love": "mîl",
+        "affliction": "caul",
+        "after": "ab",
+        "again": "ad",
+        "age": "andrann"
     },
     "sindarin_to_english":
     {
@@ -31,7 +47,23 @@
         "amar": "earth",
         "naur": "fire",
         "nen": "water",
-        "gwaew": "wind"
-
+        "gwaew": "wind",
+        "awartha": "abandon",
+        "delos": "fear",
+        "dath": "abyss",
+        "hûr": "action",
+        "laeg": "keen",
+        "elo!": "admiration",
+        "dîr": "adult",
+        "saelor": "adviser",
+        "pessa": "concern",
+        "presta-": "trouble",
+        "prestanneth": "affection",
+        "mîl": "love",
+        "caul": "affliction",
+        "ab": "after",
+        "ad": "again" ,
+        "andrann": "age"
+        
     }
 }
