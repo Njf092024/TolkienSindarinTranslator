@@ -32,7 +32,12 @@ public class TranslateService
         }
 
         var jsonResponse = await response.Content.ReadAsStringAsync();
-        var translationResult = JsonSerializer.Deserialize<TranslateRessonse>(jsonResponse);
+        var translationResult = JsonSerializer.Deserialize<TranslateResponse>(jsonResponse);
         return translationResult?.Data.Translations[0].TranslatedText ?? "Translation not found";
     }
+}
+
+public class TranslateResponse
+{
+    public TranslationData Data { get; set;}
 }
