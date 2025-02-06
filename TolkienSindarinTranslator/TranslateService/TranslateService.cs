@@ -30,5 +30,9 @@ public class TranslateService
             Console.WriteLine($"Error: {response.StatusCode}");
             return "Translation failed";
         }
+
+        var jsonResponse = await response.Content.ReadAsStringAsync();
+        var translationResult = JsonSerializer.Deserialize<TranslateRessonse>(jsonResponse);
+        return translationResult?.Data.Translations[0].TranslatedText ?? "Translation not found";
     }
 }
