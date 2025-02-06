@@ -20,5 +20,10 @@ public class TranslateService
             target = targetLang,
             format = "text"
         };
+
+        string jsonRequest = JsonSerializer.Serialize(requestBody);
+        var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
+
+        
     }
 }
