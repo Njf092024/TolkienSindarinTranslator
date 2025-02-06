@@ -16,7 +16,7 @@ public class TranslateService
         var requestBody = new
         {
             q = text,
-            source = sourecLang,
+            source = sourceLang,
             target = targetLang,
             format = "text"
         };
