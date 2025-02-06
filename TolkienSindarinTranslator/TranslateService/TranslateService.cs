@@ -41,3 +41,8 @@ public class TranslateResponse
 {
     public TranslationData Data { get; set;}
 }
+
+public class TranslationData
+{
+    public Translation[] Translations { get; set;}
+}
