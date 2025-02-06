@@ -6,5 +6,6 @@ using System.Threading.Tasks;
 
 public class TranslateService
 {
-    
+    private static readonly HttpClient httpClient = new HttpClient();
+    private const string apiKey = "google api...";
 }
