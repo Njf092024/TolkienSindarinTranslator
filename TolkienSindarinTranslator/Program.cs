@@ -12,7 +12,7 @@ class Program
 
         if (!File.Exists(jsonFilePath))
         {
-            Console.WriteLine("Error: Dictionary file not found");
+          Console.WriteLine("Error: Dictionary file not found");
             return;
         }
 
