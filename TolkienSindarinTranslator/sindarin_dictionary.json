@@ -30,7 +30,10 @@
         "affliction": "caul",
         "after": "ab",
         "again": "ad",
-        "age": "andrann"
+        "age": "andrann",
+        "agile": "celeg",
+        "air": "gwelu",
+        "alas": "nae"
     },
     "sindarin_to_english":
     {
@@ -63,7 +66,10 @@
         "caul": "affliction",
         "ab": "after",
         "ad": "again" ,
-        "andrann": "age"
+        "andrann": "age",
+        "celeg": "agile",
+        "gwelu": "air",
+        "nae": "alas"
         
     }
 }

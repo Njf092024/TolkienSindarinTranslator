@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TolkienSindarinTranslator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0b29273d97e45e882d443781f2816bf1955fc09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746573b547c0dee1086eaed0a2466ca71f30a04e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TolkienSindarinTranslator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TolkienSindarinTranslator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
