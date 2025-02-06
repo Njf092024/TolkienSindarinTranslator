@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 class Program
 {
-    static void Main()
+    static async Task Main()
     {
         string jsonFilePath = "sindarin_dictionary.json";
 
@@ -25,6 +25,8 @@ class Program
             Console.WriteLine("Error: Invalid or corrupt dictionary format.");
             return;
         }
+
+        TranslateService translateService = new TranslateService();
         
         while (true)
         {
@@ -44,7 +46,10 @@ class Program
             }
             else
             {
-                Console.WriteLine("Word not found in dictionary.");
+                Console.WriteLine("Word not found in dictionary. Attempting to translate '{input}' using Google Translate...");
+
+                string TranslatedText = await translateService.TranslateText(input, sourceLang: "en", targetLang: "fr");
+                Console.WriteLine($"Translated text: {TranslatedText}");
             }
         }
     }
