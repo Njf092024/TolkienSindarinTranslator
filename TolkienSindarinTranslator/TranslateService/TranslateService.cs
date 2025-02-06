@@ -39,10 +39,15 @@ public class TranslateService
 
 public class TranslateResponse
 {
-    public TranslationData Data { get; set;}
+    public TranslationData Data { get; set; }
 }
 
 public class TranslationData
 {
-    public Translation[] Translations { get; set;}
+    public Translation[] Translations { get; set; }
+}
+
+public class Translation
+{
+    public string TranslatedText { get; set; }
 }
