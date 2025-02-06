@@ -24,6 +24,11 @@ public class TranslateService
         string jsonRequest = JsonSerializer.Serialize(requestBody);
         var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
 
-        
+        var response = await httpClient.PostAsync(url, content);
+        if (!response.IsSuccessStatusCode)
+        {
+            Console.WriteLine($"Error: {response.StatusCode}");
+            return "Translation failed";
+        }
     }
 }
