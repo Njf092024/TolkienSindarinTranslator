@@ -13,6 +13,12 @@ public class TranslateService
     {
         string url = $"https://translation.googleapis.com/language/translate/v2?key={apiKey}";
 
-        
+        var requestBody = new
+        {
+            q = text,
+            source = sourecLang,
+            target = targetLang,
+            format = "text"
+        };
     }
 }
