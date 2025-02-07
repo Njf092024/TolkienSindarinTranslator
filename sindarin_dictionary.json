@@ -72,7 +72,8 @@
         "awakening": "echui",
         "away": "ed-",
         "awe": "anwar",
-        "axe": "hathol"
+        "axe": "hathol",
+        "babble": "glavra-"
     },
     "sindarin_to_english":
     {
@@ -147,7 +148,8 @@
         "echui": "awakening",
         "ed-": "away",
         "anwar": "awe",
-        "hathol": "axe"
+        "hathol": "axe",
+        "glavra-": "babble"
         
     }
 }
