@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj": {}
+    "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj": {}
   },
   "projects": {
-    "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj": {
+    "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj",
+        "projectUniqueName": "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj",
         "projectName": "TolkienSindarinTranslator",
-        "projectPath": "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj",
+        "projectPath": "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator.csproj",
         "packagesPath": "C:\\Users\\fadin\\.nuget\\packages\\",
-        "outputPath": "C:\\Koding\\TolkienSindarinTranslator\\TolkienSindarinTranslator\\obj\\",
+        "outputPath": "C:\\Koding\\TolkienSindarinTranslator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fadin\\AppData\\Roaming\\NuGet\\NuGet.Config"
