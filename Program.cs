@@ -26,7 +26,7 @@ class Program
             return;
         }
 
-        TranslateService translateService = new TranslateService();
+ 
         
         while (true)
         {
