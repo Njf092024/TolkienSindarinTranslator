@@ -47,9 +47,6 @@ class Program
             else
             {
                 Console.WriteLine("Word not found in dictionary. Attempting to translate '{input}' using Google Translate...");
-
-                string TranslatedText = await translateService.TranslateText(input, sourceLang: "en", targetLang: "fr");
-                Console.WriteLine($"Translated text: {TranslatedText}");
             }
         }
     }
