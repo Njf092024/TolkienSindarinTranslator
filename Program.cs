@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 class Program
 {
-    static async Task Main()
+    static void Main()
     {
         string jsonFilePath = "sindarin_dictionary.json";
 
