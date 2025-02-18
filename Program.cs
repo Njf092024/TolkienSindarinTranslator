@@ -66,6 +66,8 @@ class Program
                 Console.WriteLine("\nInvalid choice. Please select a valid option (1-3).");
                 Console.WriteLine("Press Enter to continue...");
                 Console.ReadLine();
+
+                System.Threading.Thread.Sleep(1000);
             }
         }
     }
