@@ -57,9 +57,12 @@ class Program
             }
             else if (choice == "3")
             {
-                
+                 Console.Write("\nAre you sure you want to exit? (y/n): ");
+                 if (Console.ReadLine()?.Trim().ToLower() == "y")
+                 {
                 Console.WriteLine("\nThank you for using the Sindarin Dictionary. Goodbye!");
                 break;
+                 }
             }
             else
             {
