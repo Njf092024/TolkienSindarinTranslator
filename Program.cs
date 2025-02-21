@@ -34,7 +34,6 @@ class Program
         {
             
             Console.Clear();
-            Console.WriteLine("******************************************");
             Console.WriteLine("Welcome to the Sindarin Dictionary!");
             Console.WriteLine("******************************************");
             Console.WriteLine("1. Translate from English to Sindarin");
